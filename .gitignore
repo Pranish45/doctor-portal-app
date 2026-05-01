@@ -1,0 +1,25 @@
+# Git Ignore Configuration
+# Archive folder - reference only, not committed
+_OLD_APP_BACKUPS/
+
+# Node modules (if using npm)
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+build/
+dist/
+*.log
+
+# Environment
+.env
+.env.local
