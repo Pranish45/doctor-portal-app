@@ -1,8 +1,4 @@
-# Git Ignore Configuration
-# Archive folder - reference only, not committed
-_OLD_APP_BACKUPS/
-
-# Node modules (if using npm)
+# Node modules
 node_modules/
 
 # IDE
@@ -23,3 +19,13 @@ dist/
 # Environment
 .env
 .env.local
+
+# Expo
+.expo/
+
+# Jetro tooling (local-only)
+.jetro/
+
+# Android build artifacts
+DoctorPortalApp/mobile-app/android/.gradle/
+DoctorPortalApp/mobile-app/android/app/build/
